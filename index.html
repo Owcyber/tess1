@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dwi Arya's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="foto/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1 class="logo-text">Dwi Arya</h1>
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <nav id="navbar">
+          <ul>
+            <a href="#beranda" class="nav-link">Beranda</a>
+            <a href="#tentang" class="nav-link">Tentang Saya</a>
+            <a href="#project" class="nav-link">Project</a>
+            <a href="#contact" class="nav-link">Contact</a>
+            <a href="#" id="cv"><strong>Lihat CV</strong></a>
+          </ul>
+            
+        </nav>
+      </div>
+    </header>
+
+    <section id="beranda">
+      <div class="hero">
+        <img src="foto/beranda.jpg" alt="Foto Dwi Arya" class="profile-photo" />
+        <h1>Halo, saya <span>Dwi Arya</span></h1>
+        <p>Developer yang berfokus pada teknologi web dan game</p>
+      </div>
+    </section>
+
+    <section id="tentang">
+      <div class="container">
+        <h2>Tentang Saya</h2>
+        <p class="motto">"Selalu berusaha memberikan yang terbaik dalam setiap langkah."</p>
+        <div class="info">
+          <p><strong>Nama:</strong> I Made Dwi Arya Saputra</p>
+          <p><strong>Tempat Tinggal:</strong> Bali, Denpasar Selatan, Indonesia</p>
+          <p><strong>Tanggal Lahir:</strong> 23 Desember 2007</p>
+          <p><strong>Telepon:</strong> 081234567890</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="pendidikan">
+      <div class="container">
+        <h2>Pendidikan</h2>
+        <ul class="timeline">
+          <li><strong>TK:</strong> TK Sudha Kumara</li>
+          <li><strong>SD:</strong> SD Negeri 4 Sesetan</li>
+          <li><strong>SMP:</strong> SMP Negeri 6 Denpasar</li>
+          <li><strong>SMK:</strong> SMK Ti Bali Global Denpasar</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="project">
+      <div class="container">
+        <h2>Project Saya</h2>
+        <div class="projects">
+          <div class="project-card">
+            <a href="pelajaran_bioskop" target="_blank">
+              <img src="foto/foto1.png" alt="Project 1" />
+              <h3>List Film</h3>
+              <p>Membuat List Film Bioskop Populer menggunakan HTML, CSS, dan API Film.</p>
+            </a>
+          </div>
+          <div class="project-card">
+            <a href="KalkulatorWeb" target="_blank">
+              <img src="foto/foto2.png" alt="Project 2" />
+              <h3>Kalkulator Sederhana</h3>
+              <p class="typing">Membuat Kalkulator Sederhana Menggunakan HTML, CSS, dan JavaScript</p>
+            </a>
+          </div>
+          <div class="project-card">
+            <a href="travelWeb" target="_blank">
+              <img src="foto/foto3.png" alt="Project 2" />
+              <h3>Web Travel</h3>
+              <p class="typing">Membuat Website Travel Menggunakan HTML, CSS, dan JavaScript</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Saya</h2>
+        <form class="contact-form" id="contactForm" action="index.php">
+          <label for="name">Nama:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Pesan:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Dwi Arya</p>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
